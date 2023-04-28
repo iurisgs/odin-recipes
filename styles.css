@@ -1,0 +1,43 @@
+* {
+    background-color: paleturquoise;
+    color: black;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+
+
+.titles {
+    font-size:36px ;
+    text-align: center;
+}
+
+.subtitles {
+    font-size: 28px;
+    text-align: center;
+}
+
+.texts {
+    font-size: 20px;
+}
+
+.button {
+    font-size: 16px;
+    background-color: white;
+    color:blue;
+}
+
+.button-row {
+    text-align: center;
+}
+
+.links-home {
+    color: blue;
+}
+
+.recipe-image {
+    width: 600px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
