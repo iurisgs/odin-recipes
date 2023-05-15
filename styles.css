@@ -1,43 +1,88 @@
-* {
-    background-color: paleturquoise;
-    color: black;
-    font-family: Helvetica, "Times New Roman", sans-serif;
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-
-
-.titles {
-    font-size:36px ;
-    text-align: center;
+.header {
+    height: 72px;
+    background: darkmagenta;
+    color: white;
+    display: flex;
+    font-size: 32px;
+    align-items: center;
+    font-weight: 900;
+    padding: 0 0 0 16px;
 }
 
-.subtitles {
-    font-size: 28px;
-    text-align: center;
+.footer {
+    height: 72px;
+    background: #eee;
+    color: darkmagenta;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.texts {
-    font-size: 20px;
+.sidebar {
+    width: 300px;
+    background: royalblue;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    padding: 16px;
 }
 
-.button {
-    font-size: 16px;
-    background-color: white;
-    color:blue;
+.sidebar-recipe {
+    width: 300px;
+    background: royalblue;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    padding: 16px;
+    display: flex;
 }
 
-.button-row {
-    text-align: center;
+.card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    display: flex;
+    height: 410px;
+    width: 700px;
+    padding:16px;
+    align-items: center;
+    gap:10px;
 }
 
-.links-home {
-    color: blue;
+ul {
+    list-style-type: none;
+    padding:0%;
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    gap:15px;
 }
 
-.recipe-image {
-    width: 600px;
-    height: 600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    flex:1;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 32px;
+}
+
+img {
+    width: 700px;
+    height: 350px;
 }
