@@ -15,7 +15,6 @@ A estrutura básica do HTML,
 
 * Como usar seletores CSS para aplicar estilos a elementos específicos
 * Como a cascata do CSS funciona para determinar qual estilo é aplicado
-* Como usar o !important para anular estilos específicos
 
 ### Propriedades CSS comuns
 
